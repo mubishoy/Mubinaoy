@@ -1,65 +1,85 @@
 
+for (let m = 1; m <= 99 ; m++) {
+  
+     console.log(m);
 
-let x = 0
-let y = 0
+}
 
-let quyon =  document.getElementById("q")
-let sabzi =  document.getElementById("s")
+   
 
-// y--top--400 , x--left--500
-// y>300 && y<500 && x>450 && x<550
-
-// y--top--300,x--left--600
-// y>200 && y<400 && x>550 && x<650
-
-function sabziuchun(){
-    if(y>100 && y<300 && x>350 && x<550){
-
-        sabzi.style.top = "400px"
-        sabzi.style.left = "500px"
-    }
-    else if(y>300 && y<500 && x>50 && x<250){
-        sabzi.style.top = "300px"
-        sabzi.style.left = "500px"
-    }
-
+for (let u = 55; u <=  99; u++) {
+  
+    console.log(u);
+    
 }
 
 
 
-function onga() {
-    if (x<600) {
-        x += 20
-        quyon.style.marginLeft = x + "px"
-        quyon.style.transform = "rotateY(0deg)"  
-        sabziuchun()
-    }
+for (let b = 111; b < 999 ; b++) {
+
+     if(b%11 == 0)
+        console.log(b);
+        
 }
 
-function chap()
-{
-    if(x>0)
-    {
-        x -= 20
-      quyon.style.marginLeft = x + "px"
-     quyon.style.transform = "rotateY(180deg)"
-     sabziuchun()
-    }
+for (let i = 1; i <= 100; i++) {
+    
+    if(i%3 == 0 && i%5 == 0)
+        console.log(i);
+        
 }
+
+
+for (let n = 1; n <= 90; n++) {
+   
+    if(n%2 == 0 && n%3 == 0 && n%5 == 0)
+        console.log(n);
+        
+    
+}
+
+
+for (let a = 100; a >= 0 ; a--) {
+
+    console.log(a);
+    
+}
+  
+for (let x = 500; x >= 10; x--) {
+   console.log(x);
+   
+    
+}
+
+
+
+for (let x = 500; x >= 10; x--) {
+    if(x%2 == 0)
+        
+        console.log(x);
+}
+
+for (let c = 500; c>= 10; c--) {
+    if(c%10 == 0)
+        
+        console.log(c);
+}
+
+
+// for (let v = -50; v > +50 ; v--) {
+//    console.log(v);
+
+// }
+
+for (let e = 50; e >= -50 ; e--) {
  
-function past() {
-  if(y<430 ){
-      y += 20
- quyon.style.marginTop = y + "px" 
-   sabziuchun()
-} 
-
+    console.log(e);
+    
 }
 
-    function tepa(){
-        if(y>0){
-            y -= 20
-       quyon.style.marginTop = y + "px"
-       sabziuchun()
-        }
-    }
+
+
+
+
+
+
